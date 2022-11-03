@@ -1,0 +1,6 @@
+$bg-colorbase: linear-gradient(90deg, #151085 0%, #120449 54%, #06063c 100%);
+
+@mixin mixin {
+    height: 20vh;
+    background: linear-gradient(90deg, #111c4d 0%, #171769 58%, #20204e 100%);
+}

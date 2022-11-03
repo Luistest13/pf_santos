@@ -1,0 +1,37 @@
+// ESTILO CONTENEDOR PRINCIPAL
+
+div {
+    #contenedorNotebookPrincipal {
+        &:hover {
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+            transition: all ease;
+        }
+
+    }
+
+    .contenedorNotebookPrincipal {
+        &:hover {
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+            transition: all ease;
+        }
+    }
+}
+
+// ESTILO CONTENEDOR SECUNDARIO
+
+div {
+    #contenedorNotebookSecundario {
+        &:hover {
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+            transition: all ease;
+        }
+
+    }
+
+    .contenedorNotebookSecundario {
+        &:hover {
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+            transition: all ease;
+        }
+    }
+}

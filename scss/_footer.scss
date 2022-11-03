@@ -1,0 +1,21 @@
+// ESTILO FOOTER
+
+body {
+    footer {
+        background: $bg-colorbase;
+
+        div {
+            #footer1 {
+                border-right: 2px solid white;
+            }
+
+            #footer2 {
+                border-right: 2px solid white;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,165 @@
+// ESTILO BARRA DE NAGENACION PRINCIPAL
+
+body {
+    font-family: AppelFont;
+
+    header {
+        nav {
+            background: $bg-colorbase;
+
+            div {
+                a {
+                    text-decoration: none;
+
+                    .logoHeader {
+                        height: 80px;
+                        width: 80px;
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    .componente {
+                        &:hover {
+                            background-color: black;
+                        }
+                    }
+
+                    a {
+                        &:hover {
+                            border-bottom: solid 4px white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ESTILO BARRA DE NAVEGACION SECUNDARIA
+
+nav {
+    div {
+        ul {
+            .menuSecundario {
+                &:hover {
+                    transform: scale(1.3);
+                    transition: all 1s;
+                }
+            }
+
+            li {
+                .logoNvidia {
+                    height: 40px;
+                    width: auto;
+                }
+
+                .logoAsus {
+                    height: 25px;
+                    width: auto;
+                }
+
+                .logoTrust {
+                    height: 15px;
+                    width: auto;
+                }
+
+                .logoRazer {
+                    height: 35px;
+                    width: auto;
+                }
+
+                .logoLogitech {
+                    height: 35px;
+                    width: auto;
+                }
+
+                .logoAorus {
+                    height: 15px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+// ESTILO CONTENEDOR PRINCIPAL
+
+main {
+    div {
+        #contenedorPrincipal {
+            p {
+                text-align: center;
+            }
+
+            &:hover {
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+                transform: translateY(-2%);
+                transition: all 2s ease;
+            }
+        }
+
+        .card {
+            p {
+                text-align: center;
+            }
+
+            &:hover {
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+                transform: translateY(-2%);
+                transition: all 2s ease;
+            }
+        }
+    }
+}
+
+// ESTILO CONTENEDOR SECUNDARIO
+
+section {
+    div {
+        #contenedorSecundario {
+            p {
+                text-align: center;
+            }
+
+            &:hover {
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+                transform: translateY(-2%);
+                transition: all 2s ease;
+            }
+        }
+
+        .card {
+            p {
+                text-align: center;
+            }
+
+            &:hover {
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 5);
+                transform: translateY(-2%);
+                transition: all 2s ease;
+            }
+        }
+    }
+}
+
+// ESTILO INFORMACION ADICIONAL
+
+body {
+    #informacionAdicional {
+        @include mixin;
+    }
+}
+
+// ESTILO SEGUIMIENTO DE COMPRA
+
+div {
+    #seguimientoCompra {
+        .card {
+            &:hover {
+                background-color: grey;
+            }
+        }
+    }
+}
