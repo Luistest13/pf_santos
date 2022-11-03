@@ -1,0 +1,13 @@
+{
+  "name": "pf_santos",
+  "version": "1.0.0",
+  "description": "Tienda online para los fanaticos de los videojuegos en general, donde encontraran equipos de escritorio y notebooks adaptadas a su presupuesto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC"
+}
